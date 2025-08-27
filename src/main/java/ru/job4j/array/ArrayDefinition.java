@@ -5,5 +5,9 @@ public class ArrayDefinition {
         short[] aegis = new short[10];
         String[] surnames = new String[100500];
         float[] prices = new float[40];
+
+        System.out.println("Размер массива равен: " + aegis.length);
+        System.out.println("Размер массива равен: " + surnames.length);
+        System.out.println("Размер массива равен: " + prices.length);
     }
 }
