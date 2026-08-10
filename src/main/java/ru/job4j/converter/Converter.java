@@ -22,6 +22,7 @@ public class Converter {
         System.out.println("180 rubles are " + dollar + " dollar.");
         input = 120;
         output = rubleToDollar(input);
+        passed = expected == output;
         System.out.println("120 rubles are 2. Test result : " + passed);
     }
 }
