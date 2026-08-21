@@ -2,6 +2,7 @@ package ru.job4j.loop;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.in;
 
 public class CounterTest {
     @Test
@@ -37,6 +38,24 @@ public class CounterTest {
         int finish = 5;
         int expected = 0;
         int result = Counter.sum(start, finish);
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenSumEvenNumbersFromOneToTenThenThirty() {
+        int start = 1;
+        int finish = 10;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 30;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void toDo() {
+        int start = 7;
+        int finish = 0;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
 }
