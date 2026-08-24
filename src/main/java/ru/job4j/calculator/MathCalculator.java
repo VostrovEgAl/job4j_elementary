@@ -20,8 +20,8 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + sumAndMultiply(10, 20));
-        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + minAndDiv(10, 20));
-        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + total(10, 20));
+        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + sumAndMultiply(10, 20));
+        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + minAndDiv(10, 20));
+        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + total(10, 20));
     }
 }
