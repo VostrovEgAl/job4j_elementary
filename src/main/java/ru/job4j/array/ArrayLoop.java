@@ -6,8 +6,8 @@ public class ArrayLoop {
         for (int i = 0; i < ip.length; i++) {
             ip[i] = i * 2 + 3;
         }
-        for (int i = 0; i < ip.length; i++) {
-            System.out.println(ip[i]);
+        for (int i : ip) {
+            System.out.println(i);
         }
     }
 }
